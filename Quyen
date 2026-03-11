@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB Ngoại khóa Trường THPT Châu Phú</title>
+    <style>
+        body{
+            font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+            margin:0;
+            padding:0;
+            background-color:#f4f4f4;
+            color:#333;
+        }
+
+        .sin{
+            position:relative;
+            width:100%;
+            height:550px;  
+            background-image: url('https://iwater.vn/Image/Picture/New/truong-thpt-chau-phu-an-giang.jpg');
+            background-size: cover;     
+            background-repeat: no-repeat;
+            background-position: center 40%; 
+            display: flex;
+            align-items:center;
+            justify-content:center;
+            color: white;
+            text-shadow:2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        .sin h1{
+            font-size:300%;
+            text-align:center;
+            background:rgba(0, 0, 0, 0.3);
+            padding:20px;
+            border-radius:10px;
+        }
+
+        .slogan {
+            background-color: #92d050;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .slogansin h3{
+            margin: 0;
+            font-size:1.5rem;
+            color:#1d3d01;
+        }
+
+        .slogansin p{
+            margin: 5px 0 0;
+            font-size: 0.9rem;
+        }
+
+        .cont {
+            max-width:1100px;
+            margin:40px auto;
+            display: flex;
+            gap:20px;
+            padding:0 20px;
+        }
+
+        .col {
+            flex: 1;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;          
+            flex-direction:column;
+        }
+
+        .col h2{
+            color:#2c5e1a;
+            border-bottom:2px solid #92d050;
+            padding-bottom:10px;
+        }
+
+        .col ul {
+            list-style-type:square;
+            padding-left:20px;
+            line-height:1.8;
+        }
+
+        .col img {
+            width:100%;
+            height:200px;
+            object-fit:cover;
+            border-radius:5px;
+            margin-top:auto;
+        }
+
+        .footer {
+            background-color:#c5e0b4;
+            padding:30px;
+            margin-top:50px;
+            display:flex;
+            justify-content:space-between;
+            font-size:0.9rem;
+        }
+
+        .footer a {
+            color:#0056b3;
+            text-decoration:none;
+        }
+
+        .footer a:hover {
+            text-decoration:underline;
+        }
+
+        .footer-left, .footer-right {
+            line-height:1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="sin">
+<h1>Câu lạc bộ ngoại khóa Trường THPT Châu Phú</h1>
+    </header>
+
+    <section class="slogan">
+        <div class="slogansin">
+            <h3>Năng động</h3>
+            <p>Hoạt động năng nổ và hiệu quả</p>
+        </div>
+        <div class="slogansin">
+            <h3>Sáng tạo</h3>
+            <p>Khơi nguồn mọi đam mê </p>
+        </div>
+        <div class="slogansin">
+            <h3>Tỏa sáng</h3>
+            <p>Bừng sáng tài năng trẻ</p>
+        </div>
+    </section>
+
+    <main class="cont">
+        <div class="col">
+            <h2>CLB Thể thao</h2>
+            <ul>
+                <li>Bóng đá</li>
+                <li>Bóng chuyền</li>
+                <li>Bóng rổ</li>
+                <li>Cầu lông</li>
+                <li>Võ thuật</li>
+                <li>Bơi lội</li>
+            </ul>
+            <a href="#">Chi tiết</a>
+            <img src="https://i.ibb.co/pv15nxtj/dung-cu-the-thao-53876-138077.jpg">
+        </div>
+
+        <div class="col">
+            <h2>STEM </h2>
+            <ul>
+                <li>Sáng tạo thanh thiếu niên </li>
+                <li>Tin học trẻ </li>
+                <li>tên lửa nước </li>
+                <li>Robotics </li>
+            </ul>
+            <img src="https://i.ibb.co/SwqpKbbL/k-n-ng-stem.jpg">
+        </div>
+
+        <div class="col">
+            <h2>CLB Nghệ thuật</h2>
+            <ul>
+                <li>Mỹ thuật</li>
+                <li>Nhiếp ảnh</li>
+                <li>Âm nhạc</li>
+                <li>Khiêu vũ</li>
+            </ul>
+            <a href="#">Chi tiết</a>
+            <img src="https://i.ibb.co/MDTyGM7G/du-hoc-nghe-thuat-sang-tao.jpg">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p><strong>Liên hệ:</strong></p>
+            <p>Điện thoại: 0347657816</p>
+            <p>Website: <a href="#">CLB Ngoại khóa Trường THPT Châu Phú</a></p>
+            <p>Tham gia CLB: <a href="#">Mẫu đăng ký</a></p>
+            <p>Thông tin: Huỳnh Ngọc Quyên,
+                          Phạm Thị Mỹ Hoa,
+                          Nur Fa I Zah </p>
+</div>
+        <div class="footer-right">
+            <p><strong>Xem chi tiết:</strong></p>
+            <p> <a href="#">Trang web CLB Thể thao</a></p>
+            <p> <a href="#">Trang web STEM</a></p>
+            <p> <a href="#">Trang web CLB Nghệ thuật</a></p>
+        </div>
+    </footer>
+</body>
+</html>
